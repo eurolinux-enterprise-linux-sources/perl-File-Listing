@@ -1,6 +1,6 @@
 Name:           perl-File-Listing
 Version:        6.04
-Release:        6%{?dist}
+Release:        7%{?dist}
 Summary:        Parse directory listing
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -55,6 +55,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 6.04-7
+- Mass rebuild 2013-12-27
+
 * Thu Jul 25 2013 Petr Šabata <contyk@redhat.com> - 6.04-6
 - Add missing built-time dependencies
 - Modernize the spec a bit
